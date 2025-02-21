@@ -17,7 +17,7 @@ def embed_data(img, data_bits):
 
 # -------- Encryption & Decryption --------
 def encrypt():
-    folder = r"F:\Python\steganography project"  
+    folder = r"F:\Python\steganography project"  # Change if needed
     img_path = os.path.join(folder, "mypic.jpg")
     if not os.path.exists(img_path): 
         return messagebox.showerror("Error", "Input image not found!")
@@ -39,7 +39,7 @@ def encrypt():
     messagebox.showinfo("Success", "Encryption complete!")
 
 def decrypt():
-    folder = r"F:\Python\steganography project"  
+    folder = r"F:\Python\steganography project"  # Change if needed
     img_path = os.path.join(folder, "encryptedpic.png")
     if not os.path.exists(img_path): 
         return messagebox.showerror("Error", "Encrypted image not found!")
