@@ -23,7 +23,7 @@ This project is a Python-based steganography tool that uses the Least Significan
    ```bash
    git clone <https://github.com/aakash2806/Steganography_Project.git>
    cd <repository-folder>
-2. **Install Dependencies**:Ensure you have Python 3.13 installed.Then, install the required packages:
+2. **Install Dependencies**: Ensure you have Python 3.13 installed.Then, install the required packages:
    ```bash
    pip install opencv-python numpy
 
@@ -40,14 +40,18 @@ The current code uses a fixed folder path (F:\Python\steganography project) and 
    ```bash
    Update the image file name if needed:
 4. Ensure that the specified image exists in the given folder before running the program.
+
 ## Running the program
+
 1. Save the provided code into a file, for example, steganography_tool.py.
 2. Run the script from the command line:
    ```bash
    python steganography_tool.py
 3. The GUI will open with two tabs:
-**Encryption Tab**:Enter your secret message and passcode, then click "Encrypt" to embed the message into the image. The encrypted image (encryptedpic.png) will be saved in your configured folder.
-**Decryption Tab**:Enter the passcode to retrieve the hidden message from the encrypted image.
+
+- **Encryption Tab**: Enter your secret message and passcode, then click "Encrypt" to embed the message into the image. The encrypted image (encryptedpic.png) will be saved in your configured folder.
+
+- **Decryption Tab**: Enter the passcode to retrieve the hidden message from the encrypted image.
 ## Folder Structure
     steganography_project/
     ├── README.md
