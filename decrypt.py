@@ -8,7 +8,7 @@ bits_to_str = lambda bits: "".join(
 
 # -------- Decryption Function --------
 def decrypt():
-    folder = r"F:\Python\testing"  
+    folder = r"F:\Python\testing"  # Change if needed
     img_path = os.path.join(folder, "encryptedpic.png")
     
     if not os.path.exists(img_path):
